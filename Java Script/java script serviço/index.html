@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>JS - Calculo do valor do serviço</title>
+</head>
+<body>
+	<script type="text/javascript" src="servico.js"></script>
+	<h1>Calculadora do valor do serviço</h1>
+	<form name="frmServico">
+		<input type="text" placeholder="Remuneração mensal" name="txtRemuneracao">
+		<p><input type="text" placeholder="Custo operacional" name="txtCusto"></p>
+		<p><input type="text" placeholder="Carga horária mensal" name="txtHoras"></p>
+		<input type="button" value="Calcular" onclick="calcular()">
+		<!-- a linha abaixo cria um botão que limpa os campos
+		automaticamente do formulário -->
+		<input type="reset" value="Limpar">
+		<p><input type="text" placeholder="Valor da hora: " name="txtValor"></p>
+	</form>
+</body>
+</html>
